@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 import csv
 from time import sleep
 
-OPENSEA_APIKEY = "YOUR_API_KEY"
+OPENSEA_APIKEY = "OS_API_KEY"
 
 def get_events(start_date, end_date, cursor='', event_type='successful', **kwargs):
     url = "https://api.opensea.io/api/v1/events"
