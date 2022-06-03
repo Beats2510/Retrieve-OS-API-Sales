@@ -1,3 +1,5 @@
+#Author: Beats2510
+
 import requests
 import argparse
 from datetime import datetime, timezone
